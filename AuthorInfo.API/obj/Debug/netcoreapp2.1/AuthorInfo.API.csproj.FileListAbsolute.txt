@@ -1,0 +1,17 @@
+C:\Programming\AuthorInfo\AuthorInfo.API\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Programming\AuthorInfo\AuthorInfo.API\bin\Debug\netcoreapp2.1\AuthorInfo.API.deps.json
+C:\Programming\AuthorInfo\AuthorInfo.API\bin\Debug\netcoreapp2.1\AuthorInfo.API.runtimeconfig.json
+C:\Programming\AuthorInfo\AuthorInfo.API\bin\Debug\netcoreapp2.1\AuthorInfo.API.runtimeconfig.dev.json
+C:\Programming\AuthorInfo\AuthorInfo.API\bin\Debug\netcoreapp2.1\AuthorInfo.API.dll
+C:\Programming\AuthorInfo\AuthorInfo.API\bin\Debug\netcoreapp2.1\AuthorInfo.API.pdb
+C:\Programming\AuthorInfo\AuthorInfo.API\obj\Debug\netcoreapp2.1\AuthorInfo.API.csprojAssemblyReference.cache
+C:\Programming\AuthorInfo\AuthorInfo.API\obj\Debug\netcoreapp2.1\AuthorInfo.API.RazorAssemblyInfo.cache
+C:\Programming\AuthorInfo\AuthorInfo.API\obj\Debug\netcoreapp2.1\AuthorInfo.API.RazorAssemblyInfo.cs
+C:\Programming\AuthorInfo\AuthorInfo.API\obj\Debug\netcoreapp2.1\AuthorInfo.API.AssemblyInfoInputs.cache
+C:\Programming\AuthorInfo\AuthorInfo.API\obj\Debug\netcoreapp2.1\AuthorInfo.API.AssemblyInfo.cs
+C:\Programming\AuthorInfo\AuthorInfo.API\obj\Debug\netcoreapp2.1\AuthorInfo.API.RazorTargetAssemblyInfo.cache
+C:\Programming\AuthorInfo\AuthorInfo.API\obj\Debug\netcoreapp2.1\AuthorInfo.API.dll
+C:\Programming\AuthorInfo\AuthorInfo.API\obj\Debug\netcoreapp2.1\AuthorInfo.API.pdb
+C:\Programming\AuthorInfo\AuthorInfo.API\bin\Debug\netcoreapp2.1\nlog.config
+C:\Programming\AuthorInfo\AuthorInfo.API\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Programming\AuthorInfo\AuthorInfo.API\bin\Debug\netcoreapp2.1\appsettings.Production.json

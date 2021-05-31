@@ -1,0 +1,334 @@
+2021-02-06 16:45:22.7033|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 16:45:26.4741|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 16:45:28.4379|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 16:45:28.4379|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 16:45:28.7415|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 192.8039ms 200 
+2021-02-06 16:45:29.3576|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 919.4778ms 404 text/plain
+2021-02-06 16:47:22.7284|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:2590/api/authors/1/books/1  
+2021-02-06 16:47:23.0123|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeleteBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 16:47:23.1419|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 16:47:23.2213|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 49.6726ms.
+2021-02-06 16:47:23.3147|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-02-06 16:47:23.3622|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) in 300.5008ms
+2021-02-06 16:47:23.4052|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 666.6253ms 204 
+2021-02-06 16:48:25.1038|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 16:48:30.7415|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 16:48:32.4625|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-02-06 16:48:33.4781|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 16:48:33.4781|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 16:48:33.4781|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:2590/api/authors/1/books/1  
+2021-02-06 16:48:33.5423|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 67.6686ms 500 
+2021-02-06 16:48:33.5562|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 67.2142ms 500 
+2021-02-06 16:48:33.5700|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM6ALP3A4DE8", Request id "0HM6ALP3A4DE8:00000001": An unhandled exception was thrown by the application.
+2021-02-06 16:48:33.6392|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 124.8417ms 500 text/html; charset=utf-8
+2021-02-06 16:48:36.8518|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:2590/api/authors/1/books/1  
+2021-02-06 16:48:36.9154|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 66.0352ms 500 text/html; charset=utf-8
+2021-02-06 16:49:14.5219|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 16:49:17.8387|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 16:49:18.9030|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-02-06 16:49:19.7080|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 16:49:19.7080|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 16:49:19.8372|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM6ALPH3L5HC", Request id "0HM6ALPH3L5HC:00000001": An unhandled exception was thrown by the application.
+2021-02-06 16:49:19.8681|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 156.4164ms 500 
+2021-02-06 16:49:19.8681|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 166.8365ms 500 text/html; charset=utf-8
+2021-02-06 16:49:57.0593|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:2590/api/authors/1/books/1  
+2021-02-06 16:49:57.1028|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 36.5612ms 500 text/html; charset=utf-8
+2021-02-06 16:50:38.3035|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 16:50:41.8307|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 16:50:42.9394|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-02-06 16:50:43.4435|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 16:50:43.4435|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 16:50:43.5209|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 78.258ms 500 text/html; charset=utf-8
+2021-02-06 16:50:43.5384|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM6ALQA2QL9F", Request id "0HM6ALQA2QL9F:00000001": An unhandled exception was thrown by the application.
+2021-02-06 16:50:43.5602|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 108.4351ms 500 
+2021-02-06 16:51:02.2258|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 16:51:03.8960|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1361.9477ms 500 text/html; charset=utf-8
+2021-02-06 16:51:41.8377|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 16:51:44.8197|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 16:51:46.5049|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 16:51:46.5049|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 16:51:46.8751|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 344.7304ms 200 
+2021-02-06 16:51:47.3919|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 926.9173ms 404 text/plain
+2021-02-06 16:51:55.1083|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 16:51:55.2582|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 16:51:55.3371|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 16:51:55.3721|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12.8144ms.
+2021-02-06 16:51:55.4896|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'AuthorInfo.API.Models.BookDto'.
+2021-02-06 16:51:55.7433|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) in 446.8193ms
+2021-02-06 16:51:55.8311|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 652.2989ms 200 application/json; charset=utf-8
+2021-02-06 16:52:06.4954|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:2590/api/authors/1/books/1  
+2021-02-06 16:52:06.5110|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeleteBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 16:52:06.5203|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 16:52:06.5600|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 23.437ms.
+2021-02-06 16:52:06.5749|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-02-06 16:52:06.5861|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) in 62.0836ms
+2021-02-06 16:52:06.6095|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 95.4543ms 204 
+2021-02-06 16:52:58.6098|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 16:53:02.9347|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 16:53:04.0749|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-02-06 16:53:05.0129|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 16:53:05.0129|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 16:53:05.1214|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 61.3039ms 500 
+2021-02-06 16:53:05.2397|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM6ALRK7A742", Request id "0HM6ALRK7A742:00000001": An unhandled exception was thrown by the application.
+2021-02-06 16:53:05.2591|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 241.2678ms 500 
+2021-02-06 16:53:15.7576|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 16:53:15.7576|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.3526ms 500 text/html; charset=utf-8
+2021-02-06 17:09:11.3970|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 17:09:14.5556|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 17:09:16.0629|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 17:09:16.0629|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 17:09:16.2787|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 178.4089ms 200 
+2021-02-06 17:09:16.8728|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 812.8826ms 404 text/plain
+2021-02-06 17:09:32.0855|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:09:32.3056|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:09:32.4060|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:09:32.4276|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 10.7885ms.
+2021-02-06 17:09:32.4519|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'AuthorInfo.API.Models.BookDto'.
+2021-02-06 17:09:32.5624|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) in 247.3119ms
+2021-02-06 17:09:32.5786|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 493.2107ms 200 application/json; charset=utf-8
+2021-02-06 17:09:38.0371|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:09:38.0371|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeleteBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:09:38.0565|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:09:38.0864|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 20.905ms.
+2021-02-06 17:09:38.1000|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-02-06 17:09:38.1000|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) in 51.3924ms
+2021-02-06 17:09:38.1158|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 76.6103ms 204 
+2021-02-06 17:09:48.4438|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 17:09:48.4438|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.4031ms 404 text/plain
+2021-02-06 17:09:48.4861|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 17:09:48.4861|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.8246ms 404 text/plain
+2021-02-06 17:13:09.3184|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 17:13:13.4220|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 17:13:15.0881|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 17:13:15.0339|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 17:13:15.2213|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 191.2261ms 200 
+2021-02-06 17:13:15.7979|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 702.0788ms 404 text/plain
+2021-02-06 17:13:28.0767|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:13:28.1754|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:13:28.3163|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:13:28.3351|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.2478ms.
+2021-02-06 17:13:28.3573|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'AuthorInfo.API.Models.BookDto'.
+2021-02-06 17:13:28.5723|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) in 354.7469ms
+2021-02-06 17:13:28.6387|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 515.2212ms 200 application/json; charset=utf-8
+2021-02-06 17:13:33.8027|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:13:33.8188|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeleteBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:13:33.8393|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:13:33.8737|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 17.2127ms.
+2021-02-06 17:13:33.8893|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-02-06 17:13:33.8947|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) in 70.3462ms
+2021-02-06 17:13:33.9433|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 105.7551ms 204 
+2021-02-06 17:15:55.3258|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 17:16:27.1687|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 17:16:28.7720|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-02-06 17:16:29.5088|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 17:16:29.5088|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 17:16:29.5709|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM6AM8MQ5109", Request id "0HM6AM8MQ5109:00000001": An unhandled exception was thrown by the application.
+2021-02-06 17:16:29.5911|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 84.6519ms 500 
+2021-02-06 17:16:29.6011|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 94.2582ms 500 text/html; charset=utf-8
+2021-02-06 17:16:40.0716|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:16:40.0810|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.8248ms 500 text/html; charset=utf-8
+2021-02-06 17:17:10.7475|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:17:10.7824|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.043ms 500 text/html; charset=utf-8
+2021-02-06 17:17:37.7272|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:17:37.7423|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.168ms 500 text/html; charset=utf-8
+2021-02-06 17:17:55.3783|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:17:55.3952|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.6734ms 500 text/html; charset=utf-8
+2021-02-06 17:17:59.8565|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:17:59.8667|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.0432ms 500 text/html; charset=utf-8
+2021-02-06 17:26:30.7657|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 17:27:21.5923|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 17:27:22.2366|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-02-06 17:27:22.9771|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 17:27:22.9771|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 17:27:23.0401|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 104.9253ms 500 
+2021-02-06 17:27:23.0541|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 122.0486ms 500 text/html; charset=utf-8
+2021-02-06 17:28:03.4036|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 17:28:03.4435|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.1413ms 500 text/html; charset=utf-8
+2021-02-06 17:29:33.4766|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 17:29:46.9297|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 17:29:47.9882|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 17:29:47.9882|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 17:29:48.2187|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 211.7544ms 200 
+2021-02-06 17:29:48.7974|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 812.1572ms 404 text/plain
+2021-02-06 17:29:59.6592|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:29:59.7348|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:29:59.8061|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:29:59.8267|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 9.3639ms.
+2021-02-06 17:29:59.8588|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'AuthorInfo.API.Models.BookDto'.
+2021-02-06 17:30:00.2282|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) in 238.718ms
+2021-02-06 17:30:00.5863|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 591.4889ms 200 application/json; charset=utf-8
+2021-02-06 17:30:05.5433|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:30:05.5557|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeleteBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:30:05.5557|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:30:10.1823|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 4614.9157ms.
+2021-02-06 17:30:10.1905|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-02-06 17:30:10.1905|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) in 4635.0084ms
+2021-02-06 17:30:10.1905|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4660.3761ms 204 
+2021-02-06 17:34:05.4661|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 17:34:08.7432|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 17:34:09.4751|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-02-06 17:34:10.0911|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 17:34:10.0911|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 17:34:10.1569|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM6AMIISVD5U", Request id "0HM6AMIISVD5U:00000001": An unhandled exception was thrown by the application.
+2021-02-06 17:34:10.1811|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 76.9551ms 500 
+2021-02-06 17:34:10.1811|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 84.7265ms 500 text/html; charset=utf-8
+2021-02-06 17:34:17.5865|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:34:17.5865|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.4683ms 500 text/html; charset=utf-8
+2021-02-06 17:34:42.0182|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 17:34:44.8036|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-02-06 17:34:44.9589|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Hosting startup assembly exception
+2021-02-06 17:34:45.3853|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 17:34:45.3853|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 17:34:45.4382|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM6AMITEA7D7", Request id "0HM6AMITEA7D7:00000001": An unhandled exception was thrown by the application.
+2021-02-06 17:34:45.4568|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 68.3989ms 500 text/html; charset=utf-8
+2021-02-06 17:34:45.4568|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 78.2535ms 500 
+2021-02-06 17:36:14.6224|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 17:36:19.2114|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 17:36:20.8273|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 17:36:20.8273|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 17:36:20.9211|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 95.2072ms 200 
+2021-02-06 17:36:21.7582|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 664.5499ms 404 text/plain
+2021-02-06 17:36:24.9211|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:36:25.0052|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeleteBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:36:25.0862|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:36:25.1550|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 52.7681ms.
+2021-02-06 17:36:25.1834|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-02-06 17:36:25.1994|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) in 178.9912ms
+2021-02-06 17:36:25.2112|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 289.1843ms 204 
+2021-02-06 17:41:01.6421|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 17:41:04.7157|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 17:41:05.5498|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 17:41:05.5498|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 17:41:05.6642|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 118.064ms 200 
+2021-02-06 17:41:06.0230|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 481.116ms 404 text/plain
+2021-02-06 17:41:56.0268|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 17:41:59.8039|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 17:42:02.4253|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-06 17:42:03.0338|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 607.3676ms 404 text/plain
+2021-02-06 17:42:03.4150|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2021-02-06 17:42:03.4406|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.7521ms 404 text/plain
+2021-02-06 17:42:31.2378|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/api/authors/1/books/1  
+2021-02-06 17:42:31.3870|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:42:31.4608|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:42:31.4868|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12.8793ms.
+2021-02-06 17:42:31.5202|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'AuthorInfo.API.Models.BookDto'.
+2021-02-06 17:42:31.7330|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) in 333.3574ms
+2021-02-06 17:42:31.7732|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 518.8105ms 200 application/json; charset=utf-8
+2021-02-06 17:42:37.9711|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:5000/api/authors/1/books/1  
+2021-02-06 17:42:37.9711|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeleteBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:42:37.9912|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:42:38.0199|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 16.9339ms.
+2021-02-06 17:42:38.0199|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-02-06 17:42:38.0398|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) in 50.2815ms
+2021-02-06 17:42:38.0532|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 75.9178ms 204 
+2021-02-06 17:43:58.2040|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 17:44:02.3698|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 17:44:04.6313|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-06 17:44:05.3332|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 703.6779ms 404 text/plain
+2021-02-06 17:44:15.7941|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/api/authors/1/books/1  
+2021-02-06 17:44:15.8952|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:44:15.9762|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:44:15.9939|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 10.3286ms.
+2021-02-06 17:44:16.0175|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'AuthorInfo.API.Models.BookDto'.
+2021-02-06 17:44:16.2288|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) in 270.9825ms
+2021-02-06 17:44:16.2476|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 450.4519ms 200 application/json; charset=utf-8
+2021-02-06 17:44:57.3585|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:5000/api/authors/1/books/1  
+2021-02-06 17:44:57.3855|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeleteBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:44:57.3855|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:44:57.4236|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 28.2169ms.
+2021-02-06 17:44:57.4367|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-02-06 17:44:57.4411|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) in 51.9198ms
+2021-02-06 17:44:57.4411|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.244ms 204 
+2021-02-06 17:49:14.9583|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 17:49:18.2048|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 17:49:20.4355|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/  
+2021-02-06 17:49:21.0783|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 643.8497ms 404 text/plain
+2021-02-06 17:49:31.1644|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/api/authors/1/books/1  
+2021-02-06 17:49:31.2556|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:49:31.3195|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:49:31.3359|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.793ms.
+2021-02-06 17:49:31.3566|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'AuthorInfo.API.Models.BookDto'.
+2021-02-06 17:49:31.5341|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) in 263.5467ms
+2021-02-06 17:49:31.5523|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 382.5667ms 200 application/json; charset=utf-8
+2021-02-06 17:49:59.5075|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:5000/api/authors/1/books/1  
+2021-02-06 17:49:59.5246|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeleteBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:49:59.5331|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:49:59.5829|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 24.7417ms.
+2021-02-06 17:49:59.6004|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-02-06 17:49:59.6004|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) in 75.6925ms
+2021-02-06 17:49:59.6204|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 104.46ms 204 
+2021-02-06 17:50:37.0855|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 17:50:40.6777|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 17:50:42.0971|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 17:50:42.0971|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 17:50:42.2379|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 174.0329ms 200 
+2021-02-06 17:50:42.6686|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 609.2094ms 404 text/plain
+2021-02-06 17:59:04.7767|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 17:59:09.1428|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 17:59:11.3212|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 17:59:11.3212|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 17:59:11.4290|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 110.6294ms 200 
+2021-02-06 17:59:11.8085|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 492.2309ms 404 text/plain
+2021-02-06 17:59:30.9408|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:59:31.0573|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:59:31.1059|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:59:31.1222|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.9769ms.
+2021-02-06 17:59:31.1432|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'AuthorInfo.API.Models.BookDto'.
+2021-02-06 17:59:31.2881|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) in 221.8627ms
+2021-02-06 17:59:31.3016|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 355.666ms 200 application/json; charset=utf-8
+2021-02-06 17:59:36.3903|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:2590/api/authors/1/books/1  
+2021-02-06 17:59:36.4001|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeleteBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 17:59:36.4001|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 17:59:36.4223|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 12.8803ms.
+2021-02-06 17:59:36.4348|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-02-06 17:59:36.4348|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) in 34.5107ms
+2021-02-06 17:59:36.4432|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 64.3433ms 204 
+2021-02-06 18:00:05.9283|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 18:00:10.7007|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 18:00:12.1947|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 18:00:12.1947|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 18:00:12.3600|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 141.6285ms 200 
+2021-02-06 18:00:12.8065|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 597.4081ms 404 text/plain
+2021-02-06 18:15:31.7699|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 18:15:36.0048|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 18:15:36.7204|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2021-02-06 18:15:37.2166|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 18:15:37.2166|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 18:15:37.3049|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM6AN9O4AKMN", Request id "0HM6AN9O4AKMN:00000001": An unhandled exception was thrown by the application.
+2021-02-06 18:15:37.3049|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 97.3255ms 500 text/html; charset=utf-8
+2021-02-06 18:15:37.3388|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 122.8704ms 500 
+2021-02-06 18:16:19.3895|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 18:16:19.4284|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 23.565ms 500 text/html; charset=utf-8
+2021-02-06 18:17:25.9733|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 18:17:29.6360|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 18:17:30.9407|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 18:17:30.9407|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 18:17:31.0311|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.3172ms 200 
+2021-02-06 18:17:31.4190|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 472.6667ms 404 text/plain
+2021-02-06 18:17:39.5442|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 18:17:39.7613|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 18:17:39.8273|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 18:17:39.8950|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 56.0149ms.
+2021-02-06 18:17:39.9257|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'AuthorInfo.API.Models.BookDto'.
+2021-02-06 18:17:40.0381|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) in 258.3995ms
+2021-02-06 18:17:40.0503|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 503.2327ms 200 application/json; charset=utf-8
+2021-02-06 18:27:49.3676|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-06 18:27:51.9387|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-06 18:27:53.8737|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-06 18:27:53.8855|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-06 18:27:54.0020|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 224.6469ms 200 
+2021-02-06 18:27:54.3509|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 572.4473ms 404 text/plain
+2021-02-06 18:27:57.6086|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/api/authors/1/books/1  
+2021-02-06 18:27:57.7731|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 18:27:57.8435|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 18:27:57.8659|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 9.9792ms.
+2021-02-06 18:27:57.8914|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'AuthorInfo.API.Models.BookDto'.
+2021-02-06 18:27:58.0371|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.GetBook (AuthorInfo.API) in 248.7916ms
+2021-02-06 18:27:58.0498|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 451.6473ms 200 application/json; charset=utf-8
+2021-02-06 18:28:02.6412|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:2590/api/authors/1/books/1  
+2021-02-06 18:28:02.6508|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeleteBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteBook(Int32, Int32) on controller AuthorInfo.API.Controllers.BooksController (AuthorInfo.API).
+2021-02-06 18:28:02.6508|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) - Validation state: Valid
+2021-02-06 18:28:02.6712|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 11.8947ms.
+2021-02-06 18:28:02.6800|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-02-06 18:28:02.6800|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action AuthorInfo.API.Controllers.BooksController.DeleteBook (AuthorInfo.API) in 30.5679ms
+2021-02-06 18:28:02.6909|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 49.5024ms 204 

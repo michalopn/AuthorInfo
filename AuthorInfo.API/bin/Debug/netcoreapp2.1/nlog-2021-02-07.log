@@ -1,0 +1,103 @@
+2021-02-07 18:23:14.7079|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'AuthorInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-07 21:26:41.8038|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-07 21:26:47.1987|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'AuthorInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-07 21:26:57.9082|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1,313ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [AuthorInfoDB];
+2021-02-07 21:26:58.4450|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (517ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [AuthorInfoDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2021-02-07 21:26:59.1959|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (352ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2021-02-07 21:26:59.2108|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-02-07 21:26:59.2108|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-02-07 21:26:59.2375|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20210207162315_AuthorInfoDBInitialMigration'.
+2021-02-07 21:26:59.3145|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [ShortBio] nvarchar(300) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+2021-02-07 21:26:59.3145|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Books] (
+    [Id] int NOT NULL IDENTITY,
+    [Title] nvarchar(50) NOT NULL,
+    [Synopsis] nvarchar(300) NULL,
+    [AuthorId] int NOT NULL,
+    CONSTRAINT [PK_Books] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Books_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE CASCADE
+);
+2021-02-07 21:26:59.3475|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Books_AuthorId] ON [Books] ([AuthorId]);
+2021-02-07 21:26:59.3813|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210207162315_AuthorInfoDBInitialMigration', N'2.1.14-servicing-32113');
+2021-02-07 21:26:59.7495|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-07 21:27:01.2860|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-07 21:27:01.2860|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:2590/  0
+2021-02-07 21:27:01.5867|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 300.305ms 200 
+2021-02-07 21:27:02.0261|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 747.5463ms 404 text/plain
+2021-02-07 21:46:18.2632|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-07 21:46:40.3453|INFO|AuthorInfo.API.Program|Initializing application...
+2021-02-07 21:46:41.5614|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.14-servicing-32113 initialized 'AuthorInfoContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-02-07 21:46:42.0740|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (70ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [AuthorInfoDB] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+END;
+2021-02-07 21:46:54.1092|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (12,032ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+DROP DATABASE [AuthorInfoDB];
+2021-02-07 21:47:05.8588|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1,644ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+CREATE DATABASE [AuthorInfoDB];
+2021-02-07 21:47:06.6226|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (762ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [AuthorInfoDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2021-02-07 21:47:07.2551|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (550ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2021-02-07 21:47:07.3674|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (110ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2021-02-07 21:47:07.4115|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (42ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2021-02-07 21:47:07.4115|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20210207162315_AuthorInfoDBInitialMigration'.
+2021-02-07 21:47:07.5228|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Authors] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(50) NOT NULL,
+    [ShortBio] nvarchar(300) NULL,
+    CONSTRAINT [PK_Authors] PRIMARY KEY ([Id])
+);
+2021-02-07 21:47:07.5447|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Books] (
+    [Id] int NOT NULL IDENTITY,
+    [Title] nvarchar(50) NOT NULL,
+    [Synopsis] nvarchar(300) NULL,
+    [AuthorId] int NOT NULL,
+    CONSTRAINT [PK_Books] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Books_Authors_AuthorId] FOREIGN KEY ([AuthorId]) REFERENCES [Authors] ([Id]) ON DELETE CASCADE
+);
+2021-02-07 21:47:07.5513|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Books_AuthorId] ON [Books] ([AuthorId]);
+2021-02-07 21:47:07.6322|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (80ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210207162315_AuthorInfoDBInitialMigration', N'2.1.14-servicing-32113');
+2021-02-07 21:47:07.7185|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-07 21:47:08.5278|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:2590/  
+2021-02-07 21:47:08.7558|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 228.9704ms 404 text/plain
